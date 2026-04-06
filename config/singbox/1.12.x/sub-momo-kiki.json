@@ -107,217 +107,186 @@
     "tag": "fakeip-filter",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/fakeip-filter.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/fakeip-filter-lite.srs"
   },
   {
     "tag": "ads",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/ads.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ads.srs"
   },
   {
     "tag": "private",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/private.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/private.srs"
   },
   {
     "tag": "trackerslist",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/trackerslist.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/trackerslist.srs"
   },
   {
     "tag": "applications",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/applications.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/applications.srs"
   },
   {
     "tag": "microsoft-cn",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/microsoft-cn.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/microsoft-cn.srs"
   },
   {
     "tag": "apple-cn",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/apple-cn.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/apple-cn.srs"
   },
   {
     "tag": "google-cn",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/google-cn.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/google-cn.srs"
   },
   {
     "tag": "games-cn",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/games-cn.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/games-cn.srs"
   },
   {
     "tag": "games",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/games.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/games.srs"
   },
   {
     "tag": "netflix",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/netflix.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/netflix.srs"
   },
   {
     "tag": "disney",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/disney.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/disney.srs"
   },
   {
     "tag": "max",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/max.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/max.srs"
   },
   {
     "tag": "primevideo",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/primevideo.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/primevideo.srs"
   },
   {
     "tag": "appletv",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/appletv.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/appletv.srs"
   },
   {
     "tag": "youtube",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/youtube.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/youtube.srs"
   },
   {
     "tag": "tiktok",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/tiktok.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/tiktok.srs"
   },
   {
     "tag": "bilibili",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/bilibili.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/bilibili.srs"
   },
   {
     "tag": "spotify",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/spotify.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/spotify.srs"
   },
   {
     "tag": "media",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/media.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/media.srs"
   },
   {
     "tag": "ai",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/ai.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ai.srs"
   },
   {
     "tag": "networktest",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/networktest.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/networktest.srs"
   },
   {
     "tag": "tld-proxy",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/tld-proxy.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/tld-proxy.srs"
   },
   {
     "tag": "gfw",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/gfw.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/gfw.srs"
   },
   {
     "tag": "proxy",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/proxy.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/proxy.srs"
   },
   {
     "tag": "cn",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/cn.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cn-lite.srs"
   },
   {
     "tag": "privateip",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/privateip.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/privateip.srs"
   },
   {
     "tag": "cnip",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/cnip.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs"
   },
   {
     "tag": "telegramip",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/telegramip.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/telegramip.srs"
   },
   {
     "tag": "netflixip",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/netflixip.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/netflixip.srs"
   },
   {
     "tag": "mediaip",
     "type": "remote",
     "format": "binary",
-    "path": "./ruleset/mediaip.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/mediaip.srs"
   }
 ],
