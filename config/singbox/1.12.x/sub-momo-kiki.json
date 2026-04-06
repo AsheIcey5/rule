@@ -103,7 +103,6 @@
       { "rule_set": ["mediaip"], "outbound": "🌍 国外媒体" }
     ],
     "rule_set":  [
-      // 任选一
       {
         "tag": "fakeip-filter",
         "type": "remote",
