@@ -15,6 +15,7 @@
       {"rule_set": "cn", "server": "local"}
     ],
     "final": "foreign",
+    "client_subnet": "223.5.5.0/24",
     "strategy": "prefer_ipv4",
     "independent_cache": true,
     "reverse_mapping": true
@@ -70,7 +71,7 @@
       {"inbound": "dns-in", "action": "hijack-dns"},
       {"ip_is_private": true, "outbound": "🎯 全球直连"},
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
-      {"clash_mode": "global", "outbound": "GLOBAL"},
+      {"clash_mode": "global", "outbound": "🚀 节点选择"},
       { "rule_set": ["private"], "outbound": "🔒 私有网络" },
       { "rule_set": ["ads"], "action": "reject" },
       { "rule_set": ["applications"], "outbound": "⬇️ 直连软件" },
