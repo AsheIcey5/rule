@@ -320,8 +320,7 @@
     "path": "./ruleset/mediaip.srs",
     "url": "https://gh-proxy.com/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/mediaip.srs"
   }
-]
-
+],
     "final": "🐟 漏网之鱼",
     "default_domain_resolver": {"server": "public"}
   },
