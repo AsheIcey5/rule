@@ -32,7 +32,7 @@
     { "tag": "🇯🇵 日本手动", "type": "selector", "outbounds": [] },
     { "tag": "🇸🇬 狮城自动", "type": "urltest", "outbounds": [] },
     { "tag": "🇸🇬 狮城手动", "type": "selector", "outbounds": [] },
-    { "tag": "🇺🇸 美国自动", "type": "urltest", "outbouds": [] },
+    { "tag": "🇺🇸 美国自动", "type": "urltest", "outbounds": [] },
     { "tag": "🇺🇸 美国手动", "type": "selector", "outbounds": [] },
     { "tag": "🇰🇷 韩国自动", "type": "urltest", "outbounds": [] },
     { "tag": "🇰🇷 韩国手动", "type": "selector", "outbounds": [] },
