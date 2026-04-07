@@ -40,10 +40,6 @@
         "detour": "🚀 节点选择"
       },
       {
-        "tag": "dns_fakeip",
-        "address": "fakeip" 
-      },
-      {
         "tag": "dns_block",
         "address": "rcode://success"
       }
