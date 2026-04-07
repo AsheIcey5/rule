@@ -13,18 +13,6 @@
         "inet4_range": "198.18.0.0/15",
         "inet6_range": "fc00::/18"
       },
-        "upstream",[
-          {
-            "type": "https",
-            "server": "223.5.5.5",
-            "detour": "🎯 全球直连"
-          },
-          {
-            "type": "https",
-            "server": "8.8.8.8",
-            "detour": "🚀 节点选择"
-          }
-        ],
         "fakeip_filter",{
           "rule_set": ["fakeip-filter"]
         },
@@ -43,8 +31,9 @@
         "detour": "🚀 节点选择"
       },
       {
-        "tag": "dns_block",
-        "address": "rcode://success"
+         "tag": "dns_block",
+         "type": "rcode",
+         "rcode": "success"
       }
     ],
     
@@ -53,7 +42,7 @@
       { "clash_mode": "Global", "server": "dns_foreign" },
       { "rule_set": "ads", "server": "dns_block" },
       { "rule_set": "trackerslist", "server": "dns_block" },
-      { "query_type": ["HTTPS", "SVCB"], "action": "dns_foreign" },
+      { "query_type": ["HTTPS", "SVCB"], "server": "dns_foreign" },
       { 
         "rule_set": [
           "microsoft-cn", 
