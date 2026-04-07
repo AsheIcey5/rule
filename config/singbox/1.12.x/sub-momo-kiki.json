@@ -7,7 +7,7 @@
         "detour": "🎯 全球直连"
       },
       {
-        "tag": "dns_fakeip_server", 
+        "tag": "fakeip", 
         "type": "fakeip",
         "fakeip": {
           "inet4_range": "198.18.0.0/15",
@@ -65,7 +65,7 @@
       { "rule_set": "fakeip-filter", "server": "dns_local" },
       { 
         "query_type": ["A", "AAAA"], 
-        "server": "dns_fakeip",
+        "server": "fakeip",
         "rewrite_ttl": 1
       }
     ],
