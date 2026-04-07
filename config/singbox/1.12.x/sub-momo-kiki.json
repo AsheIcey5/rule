@@ -29,7 +29,8 @@
       },
       {
         "tag": "dns_block",
-        "address": "rcode://success"
+        "type": "rcode",
+        "rcode": "NOERROR"
       }
     ],
     
