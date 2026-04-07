@@ -27,7 +27,7 @@
       },
       {
         "tag": "dns_block",
-        "type": "block"
+        "type": "empty"
       }
     ],
     
