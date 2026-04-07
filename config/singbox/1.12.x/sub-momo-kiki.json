@@ -28,9 +28,8 @@
         "detour": "🚀 节点选择"
       },
       {
-         "tag": "dns_block",
-         "type": "rcode",
-         "rcode": "success"
+        "tag": "dns_block",
+        "address": "rcode://success"
       }
     ],
     
