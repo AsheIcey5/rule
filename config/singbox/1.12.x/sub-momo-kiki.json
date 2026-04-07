@@ -24,10 +24,6 @@
         "server": "8.8.8.8",
         "domain_resolver": "dns_bootstrap", 
         "detour": "🚀 节点选择"
-      },
-      {
-        "tag": "dns_block",
-        "type": "empty"
       }
     ],
     
@@ -35,7 +31,7 @@
       { "clash_mode": "Direct", "server": "dns_local" },
       { "clash_mode": "Global", "server": "dns_foreign" },
       { "rule_set": "trackerslist", "server": "dns_local" },
-      { "rule_set": "ads", "server": "dns_block" },
+      { "rule_set": "ads", "action": "reject" },
       { "query_type": ["HTTPS", "SVCB"], "server": "dns_foreign" },
       { 
         "rule_set": [
