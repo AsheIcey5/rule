@@ -28,26 +28,13 @@
       }
     ],
     "rules": [
-      // 1. 基础绕过：内核自身请求使用基础解析
       { "outbound": "any", "server": "dns_resolver" },
-      
-      // 2. 模式联动：手动模式优先级高
       { "clash_mode": "Direct", "server": "dns_local" },
       { "clash_mode": "Global", "server": "dns_foreign" },
-
-      // 3. 广告拦截：对接你规则集里的 "ads"
       { "rule_set": "ads", "server": "dns_block" },
-      
-      // 4. 隐私与追踪拦截：对接 "private" 和 "trackerslist"
       { "rule_set": ["private", "trackerslist"], "server": "dns_block" },
-
-      // 5. 性能优化：拒绝高级查询以强制走 A 记录触发 FakeIP
       { "query_type": ["HTTPS", "SVCB"], "action": "reject" },
-
-      // 6. FakeIP 过滤：命中此名单的域名必须返回真实 IP（如局域网、Mijia等）
       { "rule_set": "fakeip-filter", "server": "dns_local" },
-
-      // 7. 国内服务直连解析：对接微软、苹果、谷歌、游戏等中国区名单
       { 
         "rule_set": [
           "microsoft-cn", 
@@ -59,12 +46,9 @@
         ], 
         "server": "dns_local" 
       },
-
-      // 8. 核心加速：所有其他的 A/AAAA 查询全部转为 FakeIP
-      // 涵盖了你名单里的：youtube, netflix, disney, ai, telegram 等
       { "query_type": ["A", "AAAA"], "server": "dns_fakeip", "rewrite_ttl": 1 }
     ],
-    "final": "dns_local", // 兜底使用国内加密解析，最稳妥
+    "final": "dns_local", 
     "strategy": "prefer_ipv4",
     "independent_cache": true,
     "reverse_mapping": true,
@@ -72,8 +56,7 @@
       "inet4_range": "198.18.0.0/15",
       "inet6_range": "fc00::/18"
     }
-  }
-},
+  },
   "outbounds": [
     { "tag": "🚀 节点选择", "type": "selector", "outbounds": ["♻️ 自动选择", "👉 手动选择", "🇭🇰 香港自动", "🇭🇰 香港手动", "🇹🇼 台湾自动", "🇹🇼 台湾手动", "🇯🇵 日本自动", "🇯🇵 日本手动", "🇸🇬 狮城自动", "🇸🇬 狮城手动", "🇺🇸 美国自动", "🇺🇸 美国手动", "🇰🇷 韩国自动", "🇰🇷 韩国手动", "🐟 剩余自动", "🐟 剩余手动", "🎯 全球直连"] },
     { "tag": "♻️ 自动选择", "type": "urltest", "outbounds": [] },
