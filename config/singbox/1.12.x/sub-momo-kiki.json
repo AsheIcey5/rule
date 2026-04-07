@@ -32,14 +32,14 @@
         "tag": "dns_local",
         "type": "https",
         "server": "223.5.5.5",
-        "address_resolver": "dns_bootstrap", 
+        "domain_resolver": "dns_bootstrap", 
         "detour": "🎯 全球直连"
       },
       {
         "tag": "dns_foreign", 
         "type": "https",
         "server": "8.8.8.8",
-        "address_resolver": "dns_bootstrap", 
+        "domain_resolver": "dns_bootstrap", 
         "detour": "🚀 节点选择"
       },
       {
