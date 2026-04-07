@@ -4,8 +4,7 @@
       {
         "tag": "dns_bootstrap",
         "type": "udp",
-        "server": "223.5.5.5",
-        "detour": "🎯 全球直连"
+        "server": "223.5.5.5"
       },
       {
         "type": "fakeip",
@@ -17,8 +16,7 @@
         "tag": "dns_local",
         "type": "https",
         "server": "223.5.5.5",
-        "domain_resolver": "dns_bootstrap", 
-        "detour": "🎯 全球直连"
+        "domain_resolver": "dns_bootstrap"
       },
       {
         "tag": "dns_foreign", 
