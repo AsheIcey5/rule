@@ -34,8 +34,8 @@
     "rules": [
       { "clash_mode": "Direct", "server": "dns_local" },
       { "clash_mode": "Global", "server": "dns_foreign" },
+      { "rule_set": "trackerslist", "server": "dns_local" },
       { "rule_set": "ads", "server": "dns_block" },
-      { "rule_set": "trackerslist", "server": "dns_block" },
       { "query_type": ["HTTPS", "SVCB"], "server": "dns_foreign" },
       { 
         "rule_set": [
