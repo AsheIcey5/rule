@@ -330,13 +330,6 @@
     "download_detour": "🎯 全球直连"
   },
   {
-    "tag": "cnip",
-    "type": "remote",
-    "format": "binary",
-    "url": "https://hk.gh-proxy.org/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs",
-    "download_detour": "🎯 全球直连"
-  },
-  {
     "tag": "telegramip",
     "type": "remote",
     "format": "binary",
@@ -355,6 +348,13 @@
     "type": "remote",
     "format": "binary",
     "url": "https://hk.gh-proxy.org/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/mediaip.srs",
+    "download_detour": "🎯 全球直连"
+  },
+  {
+    "tag": "cnip",
+    "type": "remote",
+    "format": "binary",
+    "url": "https://hk.gh-proxy.org/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs",
     "download_detour": "🎯 全球直连"
   }
 ],
