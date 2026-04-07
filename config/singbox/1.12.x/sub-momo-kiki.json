@@ -28,7 +28,6 @@
       }
     ],
     "rules": [
-      { "outbound": "any", "server": "dns_resolver" },
       { "clash_mode": "Direct", "server": "dns_local" },
       { "clash_mode": "Global", "server": "dns_foreign" },
       { "rule_set": "ads", "server": "dns_block" },
