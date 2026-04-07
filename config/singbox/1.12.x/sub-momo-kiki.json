@@ -50,7 +50,7 @@
       { "clash_mode": "Global", "server": "dns_foreign" },
       { "rule_set": "ads", "server": "dns_block" },
       { "rule_set": "trackerslist", "server": "dns_block" },
-      { "query_type": ["HTTPS", "SVCB"], "action": "reject" },
+      { "query_type": ["HTTPS", "SVCB"], "action": "dns_foreign" },
       { 
         "rule_set": [
           "microsoft-cn", 
@@ -62,6 +62,7 @@
         ], 
         "server": "dns_local" 
       },
+      { "rule_set": ["games", "games-cn"], "server": "dns_local" },
       { "rule_set": "fakeip-filter", "server": "dns_local" },
       { 
         "query_type": ["A", "AAAA"], 
