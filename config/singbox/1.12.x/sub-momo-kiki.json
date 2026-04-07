@@ -74,7 +74,7 @@
       }
     ],
     
-    "final": "dns_local",
+    "final": "dns_foreign",
     "strategy": "prefer_ipv4",
     "independent_cache": true,
     "reverse_mapping": true
