@@ -163,7 +163,7 @@
     "tag": "fakeip-filter",
     "type": "remote",
     "format": "binary",
-    "url": "https://hk.gh-proxy.org/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/fakeip-filter-lite.srs",
+    "url": "https://hk.gh-proxy.org/https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/fakeip-filter.srs",
     "download_detour": "🎯 全球直连"
   },
   {
