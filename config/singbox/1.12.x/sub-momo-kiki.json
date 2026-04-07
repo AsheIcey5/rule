@@ -359,7 +359,7 @@
   }
 ],
     "final": "🐟 漏网之鱼",
-    "default_domain_resolver": {"server": "public"}
+    "default_domain_resolver": {"server": "dns_local"}
   },
   "inbounds": [
     {
