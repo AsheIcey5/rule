@@ -37,8 +37,7 @@
         "rule_set": [
           "microsoft-cn", 
           "apple-cn", 
-          "google-cn", 
-          "games-cn", 
+          "google-cn",  
           "bilibili", 
           "cn"
         ], 
