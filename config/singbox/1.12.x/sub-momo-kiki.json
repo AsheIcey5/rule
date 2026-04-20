@@ -43,7 +43,8 @@
         ], 
         "server": "dns_local" 
       },
-      { "rule_set": ["games", "games-cn"], "server": "dns_local" },
+      { "rule_set": "games", "server": "dns_foreign" },
+      { "rule_set": "games-cn", "server": "dns_local" },
       { "rule_set": "fakeip-filter", "server": "dns_local" },
       { 
         "query_type": ["A", "AAAA"], 
