@@ -15,8 +15,7 @@
       {
         "tag": "dns_local",
         "type": "https",
-        "server": "223.5.5.5",
-        "domain_resolver": "dns_bootstrap"
+        "server": "10.0.0.20"
       },
       {
         "tag": "dns_foreign", 
