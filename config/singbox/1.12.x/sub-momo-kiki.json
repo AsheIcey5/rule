@@ -30,22 +30,21 @@
     "rules": [
       { "clash_mode": "Direct", "server": "dns_local" },
       { "clash_mode": "Global", "server": "dns_foreign" },
-      { "rule_set": "trackerslist", "server": "dns_local" },
       { "rule_set": "ads", "action": "reject" },
-      { "query_type": ["HTTPS", "SVCB"], "server": "dns_foreign" },
+      { "rule_set": "trackerslist", "server": "dns_local" },
       { 
         "rule_set": [
           "microsoft-cn", 
           "apple-cn", 
           "google-cn",  
           "bilibili", 
-          "cn"
+          "cn",
+          "games-cn"
         ], 
         "server": "dns_local" 
       },
-      { "rule_set": "games", "server": "dns_foreign" },
-      { "rule_set": "games-cn", "server": "dns_local" },
       { "rule_set": "fakeip-filter", "server": "dns_local" },
+      { "query_type": ["HTTPS", "SVCB"], "server": "dns_foreign" },
       { 
         "query_type": ["A", "AAAA"], 
         "server": "fakeip",
