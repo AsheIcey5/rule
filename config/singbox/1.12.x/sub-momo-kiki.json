@@ -2,11 +2,6 @@
   "dns": {
     "servers": [
       {
-        "tag": "dns_bootstrap",
-        "type": "udp",
-        "server": "223.5.5.5"
-      },
-      {
         "type": "fakeip",
         "tag": "fakeip", 
         "inet4_range": "198.18.0.0/15",
@@ -20,8 +15,7 @@
       {
         "tag": "dns_foreign", 
         "type": "https",
-        "server": "8.8.8.8",
-        "domain_resolver": "dns_bootstrap", 
+        "server": "8.8.8.8", 
         "detour": "🚀 节点选择"
       }
     ],
