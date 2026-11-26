@@ -21,7 +21,8 @@
       {
         "type": "fakeip",
         "tag": "fakeip",
-        "inet4_range": "198.18.0.0/15"
+        "inet4_range": "198.18.0.0/15",
+        "inet6_range": "fc00::/18"
       }
     ],
     "rules": [
@@ -57,8 +58,13 @@
         "server": "dns_local"
       },
       {
+        "query_type": "HTTPS",
+        "action": "reject"
+      },
+      {
         "query_type": [
-          "A"
+          "A",
+          "AAAA"
         ],
         "server": "fakeip",
         "rewrite_ttl": 1
