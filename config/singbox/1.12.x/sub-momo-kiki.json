@@ -16,7 +16,7 @@
         "tag": "dns_foreign",
         "type": "https",
         "server": "8.8.8.8",
-        "detour": "🚀 节点选择"
+        "detour": "♻️ 自动选择"
       },
       {
         "type": "fakeip",
@@ -596,7 +596,8 @@
         "outbound": "🌎 国外域名"
       },
       {
-        "action": "resolve"
+        "action": "resolve",
+        "server": "dns_foreign"
       },
       {
         "rule_set": [
